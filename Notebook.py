@@ -25,11 +25,10 @@ joining text);"""
 crsr.execute(sql_command) 
   
 # SQL command to insert the data in the table 
-sql_command = """INSERT INTO emp VALUES (21, "Arpit", "Bansal", "M", "2014-03-28");"""
-crsr.execute(sql_command) 
+
   
 # another SQL command to insert the data in the table 
-sql_command = """INSERT INTO emp VALUES (1, "Bill", "Gates", "M", "1980-10-28");"""
+sql_command = """INSERT INTO emp VALUES (1, "Gasper", "sxasd", "M", "2010-10-28");"""
 crsr.execute(sql_command) 
   
 # To save the changes in the files. Never skip this.  
